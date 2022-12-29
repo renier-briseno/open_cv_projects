@@ -1,7 +1,9 @@
 import cv2
 import os
 
-file_path = os.path.dirname(__file__) + "/assets/Linypoo.png"
+current_path = os.path.dirname(__file__)
+os.chdir(current_path + "/assets")
+file_path = current_path + "/assets/Linypoo.png"
 
 Linus = cv2.imread(file_path, 1)
 
