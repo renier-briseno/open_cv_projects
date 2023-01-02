@@ -7,6 +7,7 @@ image_dir = current_dir + "/assets/squares.jpg"
 
 
 
+
 img = cv2.imread(image_dir, -1)
 img = cv2.resize(img, None, fx=.17, fy=.17)
 
